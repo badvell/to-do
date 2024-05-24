@@ -1,6 +1,6 @@
 # To-Do App
 
-### https://badvell.github.io/to-do-list-app/
+### https://badvell.github.io/to-do/
 
 ## This is a simple and intuitive to-do list application built with React.js. It allows users to add, complete, and remove tasks. The application also saves tasks to localStorage to ensure persistence across page reloads.
 
