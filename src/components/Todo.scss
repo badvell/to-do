@@ -1,0 +1,51 @@
+.todo {
+  &__text {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 60px 0 17px 0;
+    max-width: 114px;
+    width: 100%;
+  }
+
+  &__list {
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      list-style: none;
+      padding: 27px;
+      margin-bottom: 17px;
+      color: #9e78cf;
+      font-family: 'Inter', serif;
+      font-weight: 400;
+      font-size: 16px;
+      background: #21192b;
+    }
+
+    &-done {
+      text-decoration: line-through;
+      color: #78cfb0;
+    }
+  }
+
+  &__btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-right: 8px;
+    cursor: pointer;
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+
+  &__btn-done {
+    background: url(../assets/done.svg) no-repeat;
+  }
+
+  &__btn-delete {
+    background: url(../assets/delete.svg) no-repeat;
+    height: 23px;
+  }
+}

@@ -1,0 +1,28 @@
+.input {
+  &__item {
+    max-width: 449px;
+    width: 100%;
+    background: none;
+    border: 1px solid #3e1671;
+    border-radius: 10px;
+    margin-right: 11px;
+    color: #9e78cf;
+    padding: 11px;
+    font-size: 16px;
+    &:focus {
+      outline: none;
+      border: 1px solid #9e78cf;
+    }
+  }
+
+  &__btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #9e78cf;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
