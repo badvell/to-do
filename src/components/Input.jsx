@@ -7,7 +7,7 @@ const Input = ({ addTask, newTasks, handleKeyPress, handleInputChange }) => {
         type='text'
         placeholder='Add a new task'
         className='input__item'
-        maxLength={40}
+        maxLength={50}
         value={newTasks}
         onKeyPress={handleKeyPress}
         onChange={handleInputChange}

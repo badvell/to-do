@@ -17,7 +17,7 @@ const Todo = ({ tasks, toggleTaskCompleted, deleteTask }) => {
                 : 'todo__list-item'
             }
           >
-            {task.newTasks}
+            <p className='todo__list-item_text'>{task.newTasks}</p>
             <div className='todo__wrapper'>
               <button
                 type='button'
