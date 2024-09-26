@@ -2,7 +2,7 @@ import './Input.scss';
 
 const Input = ({ addTask, newTasks, handleKeyPress, handleInputChange }) => {
   return (
-    <>
+    <div className='input'>
       <input
         type='text'
         placeholder='Add a new task'
@@ -15,7 +15,7 @@ const Input = ({ addTask, newTasks, handleKeyPress, handleInputChange }) => {
       <button type='button' onClick={addTask} className='input__btn'>
         +
       </button>
-    </>
+    </div>
   );
 };
 
